@@ -3,6 +3,6 @@
 <br>
 
 <div>
-    <img align="left" alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/beastcom74/DiscordBC/total?style=flat&label=Downloads&labelColor=white&color=gold"/>
+    <img align="left" alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/beastcom74/DiscordBC/total?style=flat&label=Downloads&labelColor=606060&color=97c50f"/>
     <img align="right" src="https://img.shields.io/badge/Last update: 28.03.24, 02:06:38-FFBF00"/>
 </div>
