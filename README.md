@@ -3,7 +3,3 @@
 <br>
 <img align="center" src="https://imgur.com/n9hgUzt.png"/>
 <img align="center" src="https://imgur.com/5XdPJh4.png"/>
-<div>
-    <img align="left" alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/beastcom74/DiscordBC/total?style=flat&labelColor=smoke&color=94be1a&cacheSeconds=300"/>
-    <img align="right" src="https://img.shields.io/badge/Last version: v1.0-6b97d6"/>
-</div>
