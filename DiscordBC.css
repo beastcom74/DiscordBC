@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+/* Root rules */
+:root:lang(ru),
+:root:lang(en),
+:root:lang(ua) {
+    --font-primary: "Roboto", sans-serif;
+    --font-display: "Roboto", sans-serif;
+    --font-headline: "Roboto", sans-serif;
+}
+:root {
+    --main-color: rgb(123, 177, 255);
+    --background-color: rgb(21, 21, 20);
+    --background-additional-color: rgb(31, 31, 30);
+    --brand-experiment: rgb(45, 45, 45);
+    --brand-experiment-560: rgb(80, 130, 205);
+
+    --primary-630: var(--background-additional-color);
+    --primary-700: var(--background-color);
+    --green-360: rgb(123, 177, 255);
+}
+/**/
+
+/* Themes */
+.theme-dark {
+    --text-normal: rgb(200, 200, 200);
+    --background-primary: var(--background-additional-color);
+    --background-secondary: rgb(41, 41, 40);
+    --background-floating: var(--background-additional-color);
+    --modal-background: var(--background-additional-color);
+    --text-link: var(--main-color);
+
+    --brand-experiment-400: rgb(115, 153, 206);
+    --brand-experiment-500: rgb(92, 128, 179);
+
+    --primary-600: rgb(37, 37, 36);
+    --primary-800: rgb(47, 47, 46);
+    --button-secondary-background: rgb(71, 71, 70);
+}
+
+/* Checkbox and themes list */
+.checkbox_fcf2ad,
+.bd-filled-checkmark {
+    background-color: var(--brand-experiment-500);
+    border-radius: 20px;
+}
+.bd-addon-header,
+.connectionHeader__2b82f,
+.connectContainer_e331e3 {
+    color: var(--main-color) !important;
+    background: var(--background-color) !important;
+    border-radius: 10px;
+}
+.bd-addon-list .bd-addon-card {
+    background-color: rgb(45, 45, 44);
+    border-radius: 20px;
+}
+.container__2ed72.checked__36fdc,
+.bd-switch input:checked + .bd-switch-body {
+    background-color: var(--main-color) !important;
+}
+#bd-editor-controls {
+    background-color: var(--background-color);
+}
+.bd-empty-updates svg {
+    fill: var(--main-color);
+}
+/**/
+
+/* Remove elements */
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"],
+div[aria-label="Семейный центр"],
+div[aria-label="Family Center"],
+div[aria-label="Сімейний центр"],
+div[aria-label="Каталог приложений"],
+div[aria-label="App Directory"],
+div[aria-label="Каталог програм"],
+button[aria-label="Noise Suppression powered by Krisp"],
+button[aria-label="Шумоподавление с помощью Krisp"],
+button[aria-label="Поглинання шуму від Krisp"], a[href="https://support.discord.com"],
+div[aria-label="Почта"],
+div[aria-label="Inbox"],
+div[aria-label="Вхідні"],
+ .buttonContainer_c84998, .bd-switch-symbol,
+.slider__41d94 > svg, .option__91497:after, .actionButtons__85e3c, 
+.inviteToolbar__7cc96 > .divider_bdb894, 
+.children_cde9af > .akaBadge__27cd4,
+.children_cde9af > .nicknames__12efb, .scroller_de945b > .listItem__48528 > .listItemWrapper__3d465 {
+    display: none;
+}
+/**/
+
+/* Paint elements */
+.scroller_de945b,
+.theme-dark .panel_bd8c76,
+.chatContent_f087cb,
+.withFrame__5e49e,
+.container_debb33,
+.container_e1958d,
+.searchBarComponent__8f95f,
+.searchBar__5a20a,
+.form_d8a4a1:before,
+.form_d8a4a1,
+.sidebarRegionScroller__8113e,
+.peopleColumn__0c784,
+.userProfileInner__61cc1:before,
+.userProfileInnerThemedNonPremium_ed9022 {
+    background: var(--background-color) !important;
+}
+.scroller__89969,
+.searchBar__621ec,
+.placeholder_dec8c7,
+.scrollableContainer_ff917f,
+.themed_b152d4,
+.children_cde9af:after,
+.childWrapper_a6ce15,
+.theme-dark .container__7e23c,
+.container_f79ab4,
+.members__573eb,
+.contentRegionScroller__9ae20,
+.searchBar__310d8 {
+    background: var(--background-additional-color) !important;
+}
+/**/
+
+/* Mute and Deafen paint */
+button[aria-label="Заглушить"],
+button[aria-label="Mute"],
+button[aria-label="Заглушити"],
+button[aria-label="Deafen"],
+button[aria-label="Откл. звук"],
+button[aria-label="Вимкнути звук"] {
+    color: var(--main-color) !important;
+}
+/**/
+
+/* Buttons in form */
+.winButtonMinMax_caf9c8,
+.wordmarkWindows_ffbc5e,
+.winButtonClose__6396d,
+.rtcConnectionStatusConnected__9db4a,
+.defaultValue__8e777 .markValue_c91c4e {
+    color: var(--main-color);
+}
+/**/
+
+/* Follow background */
+.itemCard_b64118,
+.itemFilled__5a849,
+.itemFilled__5a849[aria-checked="true"],
+.guildContainer_fef06f {
+    background-color: var(--background-color);
+}
+.wrapper__57349 {
+    background-color: rgb(32, 32, 31);
+}
+/**/
+
+/* Button in main menu */
+.selected__37292 {
+    background: rgb(52, 52, 51);
+    color: rgb(220, 220, 220);
+}
+
+/* Disconnect button in voice chat */
+.colorable__4f530.red__45e65 {
+    background: rgb(106, 154, 221);
+}
+.colorable__4f530.red__45e65:hover {
+    background: rgb(82, 118, 168);
+}
+/**/
+
+/* about me border */
+.profileBioInput__6a44f.textArea_a86690.textAreaSlate__8578d.slateContainer__1d1fd,
+.message__7e601 {
+    border: 1px solid rgb(53, 54, 58);
+    border-radius: 7px;
+    padding: 5px;
+}
+/**/
+
+/* Member list */
+.member_b44d5d {
+    background: var(--background-color);
+    margin-top: 7px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.member_b44d5d:hover,
+.clickable__03a29:hover {
+    background: rgb(32, 32, 31);
+    border-radius: 20px;
+}
+.layout_bb8e67 {
+    border-radius: 20px;
+}
+/**/
+
+/* Threads list */
+.link_ddbb36,
+.side_b4b3f6 .item__48dda,
+.itemFilled__5a849 {
+    transition: 0.5s;
+    margin-top: 7px;
+    border-radius: 20px;
+}
+/**/
+
+/* Profile */
+.avatarWrapper__500a6,
+.interactive__0786a {
+    transition: 0.5s;
+}
+.avatarWrapper__500a6:hover,
+.interactive__0786a:hover {
+    background: var(--background-secondary);
+}
+/**/
+
+/* Inner buttons */
+.wrapper__4e6b6 {
+    bottom: 21px;
+}
+/**/
+
+/* Animation when changing channels */
+.messagesWrapper_add28b,
+.container__7e23c,
+.content__690c5,
+.peopleColumn__0c784 {
+    animation: show 0.7s ease;
+}
+/**/
+
+/* Call container */
+.wrapper__6bf2d.minimum__7f356 .callContainer__1477d {
+    background: rgb(15, 15, 15);
+}
+/**/
+
+/* Glowing when speaking in voice chat */
+.border_d9a17b.speaking_c28527,
+.border_e782de.speaking_b20122,
+.speaking-3K28iH,
+.speaking__33297,
+.avatarSpeaking__747a1 {
+    box-shadow: inset 0 0 10px var(--main-color);
+}
+/**/
+
+/* Tooltip */
+.tooltipPrimary__51b23,
+.tooltipGrey__3108e,
+.menu__088f7,
+.popout__24e32,
+.container__84c26,
+.focused__68b93,
+.jumpToPresentBar__69174 {
+    background: rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px);
+}
+/**/
+
+/* Hover text */
+.theme-dark.mouse-mode.full-motion .message_ccca67 {
+    transition: 0.4s ease;
+}
+.theme-dark.mouse-mode.full-motion .message_ccca67:hover {
+    background: rgb(29, 29, 28);
+    border-radius: 15px;
+    margin-left: 11px;
+    margin-right: 7px;
+}
+/**/
+
+/* When you tagged */
+.wrapper__53064 {
+    background-color: rgba(123, 177, 255, 0.3);
+    padding: 1px;
+}
+.mentioned_fa6fd2 {
+    background: rgba(123, 177, 255, 0.05) !important;
+    border-radius: 20px;
+}
+.mentioned_fa6fd2:before {
+    background: rgba(0, 0, 0, 0.01);
+    background-color: var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+/**/
+
+/* Tab hover */
+.top_fae1fa .brand_ce3ecf.selected_a523ff.item__48dda {
+    border-bottom-color: var(--main-color);
+}
+/**/
+
+/* Unread message */
+.unreadImportant_e8bb44 {
+    background-color: var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+    margin-top: -3px;
+    padding-bottom: 5px;
+}
+/**/
+
+/* Terms background */
+.card__4dc22:not(.outline__16075),
+.cardPrimary__1ee6am,
+.wrapper__6b347,
+.wrapper__4308f,
+.authedApp__71a52 {
+    background-color: var(--background-color);
+    border: 1px solid rgb(43, 44, 48);
+    border-radius: 20px;
+}
+/**/
+
+/* Microphone style fix */
+svg div button[aria-label="Вкл. микрофон"],
+svg div button[aria-label="Увімкнути мікрофон"],
+svg div button[aria-label="Turn On Microphone"] {
+    background: var(--white-500) !important;
+}
+svg div button[aria-label="Вкл. микрофон"] svg,
+svg div button[aria-label="Увімкнути мікрофон"] svg,
+svg div button[aria-label="Turn On Microphone"] svg {
+    color: var(--primary-860) !important;
+}
+
+svg div > button[aria-label="Заглушить"],
+svg div > button[aria-label="Вимкнути мікрофон"],
+svg div > button[aria-label="Turn Off Microphone"] {
+    background: var(--primary-630) !important;
+}
+svg div > button[aria-label="Заглушить"]:hover,
+svg div > button[aria-label="Вимкнути мікрофон"]:hover,
+svg div > button[aria-label="Turn Off Microphone"]:hover {
+    background: var(--primary-700) !important;
+}
+svg div button[aria-label="Заглушить"] svg,
+svg div button[aria-label="Вимкнути мікрофон"] svg,
+svg div button[aria-label="Turn Off Microphone"] svg {
+    color: var(--white-500) !important;
+}
+
+[role="button"][aria-label="Другие настройки"][class*="primaryDark_ec74a7"],
+[role="button"][aria-label="Додаткові параметри"][class*="primaryDark_ec74a7"] {
+    color: var(--primary-860) !important;
+    background: var(--white-500) !important;
+}
+
+[role="button"][aria-label="Другие настройки"][class*="white_ce1c7b"],
+[role="button"][aria-label="Додаткові параметри"][class*="white_ce1c7b"] {
+    color: var(--white-500) !important;
+    background: var(--primary-630) !important;
+}
+/**/
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(100, 100, 100) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(75, 75, 75) !important;
+}
